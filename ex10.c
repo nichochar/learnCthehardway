@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
   // let's make our own array of strings
   char *states[] = {
-    "Caliornia", "Oregon",
+    "Caliornia", NULL,
     "Washington", "Texas"
   };
   // If this is too big, we get a segmentation fault
