@@ -51,6 +51,8 @@ Ex14
 
 Ex15
 ----
+This exercise deals with pointers. 
+[Book exercise](http://c.learncodethehardway.org/book/ex15.html)
 
 Ex16
 ----
