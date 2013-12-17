@@ -51,7 +51,8 @@ Ex14
 
 Ex15
 ----
-This exercise deals with pointers. 
+This exercise deals with pointers.  
+[The code](https://github.com/nichochar/learnCthehardway/blob/master/ex15.c)  
 [Book exercise](http://c.learncodethehardway.org/book/ex15.html)
 
 Ex16
