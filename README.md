@@ -56,6 +56,11 @@ This exercise deals with pointers.
 
 Ex16
 ----
+In this exercise you'll learn how to make a struct, point a pointer at
+them, and use them to make sense of internal memory structures. I'll
+also apply the knowledge of pointers from the last exercise and get you
+constructing these structures from raw memory using malloc.
+[Book exercise](http://c.learncodethehardway.org/book/ex16.html)
 
 Ex17
 ----
