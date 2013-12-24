@@ -49,10 +49,10 @@ int main(int argc, char *argv[])
       "Franck Blank", 20, 72, 180);
 
   // print them out and where they are in memory
-  printf("Joe is at memory location: %d\n", joe);
+  printf("Joe is at memory location: %p\n", joe);
   Person_print(joe);
 
-  printf("Franck is at memory location %d\n", frank);
+  printf("Franck is at memory location %p\n", frank);
   Person_print(frank);
 
   // make everyone age 20 years and print them again
@@ -68,6 +68,18 @@ int main(int argc, char *argv[])
   // destroy them both so we clean up
   Person_destroy(joe);
   Person_destroy(frank);
+
+  // Example of creating and assigning on the stack (difference of . / ->)
+  // more info here http://stackoverflow.com/questions/10916799/how-to-create-a-struct-on-the-stack-in-c
+
+  struct Person paul;
+
+  paul.name="Paul Stack";
+  paul.age = 42;
+  paul.height = 130;
+  paul.weight = 100;
+  printf("name: %s\n \tAge: %d\n \tHeight: %d\n \tWeight: %d\n",
+      paul.name, paul.age, paul.height, paul.weight);
 
   return 0;
 }

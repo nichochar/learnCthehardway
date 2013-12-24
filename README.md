@@ -62,7 +62,9 @@ them, and use them to make sense of internal memory structures. I'll
 also apply the knowledge of pointers from the last exercise and get you
 constructing these structures from raw memory using malloc.  
 [The code](https://github.com/nichochar/learnCthehardway/blob/master/ex15.c)    
-[Book exercise](http://c.learncodethehardway.org/book/ex16.html)  
+[Book exercise](http://c.learncodethehardway.org/book/ex16.html)   
+[Useful Link on the difference between the heap and the
+stack](http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap)   
 
 Ex17
 ----
